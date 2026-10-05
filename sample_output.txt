@@ -1,0 +1,35 @@
+======================================================================
+GRC READINESS ASSESSMENT REPORT
+Organization: MedCore Regional Hospital
+======================================================================
+
+APPLICABLE REGULATORY FRAMEWORKS
+----------------------------------------------------------------------
+MANDATORY (2 frameworks):
+[REQUIRED] HIPAA Security Rule
+Reason: Organization handles Protected Health Information (PHI)
+
+[REQUIRED] PCI-DSS v4.0
+Reason: Organization processes, stores, or transmits cardholder data
+
+RECOMMENDED (1 frameworks):
+[RECOMMEND] NIST Cybersecurity Framework 2.0
+
+GRC MATURITY SCORES (1 = Initial, 5 = Optimizing)
+----------------------------------------------------------------------
+GOVERNANCE   2.5/5.0 (Developing)
+RISK         3/5.0 (Defined)
+COMPLIANCE   4/5.0 (Managed)
+
+OVERALL GRC MATURITY: 3.2/5.0
+DEFINED - CONTINUE BUILDING CONSISTENCY
+
+CIA TRIAD IMPACT CLASSIFICATION REPORT
+HealthBridge PHI Breach         Y   -   -  CONFIDENTIALITY    LOW
+Hospital Ransomware Attack      -   -   Y  AVAILABILITY       LOW
+EHR Record Tampering            -   Y   -  INTEGRITY          LOW
+DDoS on Bank Portal             -   -   Y  AVAILABILITY       LOW
+SQL Injection Attack            -   Y   -  INTEGRITY          LOW
+Laptop Theft                    Y   -   -  CONFIDENTIALITY    LOW
+Insider Data Exfiltration       Y   -   -  CONFIDENTIALITY    LOW
+Power Outage                    -   -   Y  AVAILABILITY       LOW

@@ -387,7 +387,7 @@ def main() -> None:
         ),
         SecurityEvent(
             "Insider Data Exfiltration",
-            "Employee exfiltrated 50,000 customer records before resignation",
+            "Employee emailed 50,000 customer records to personal email before resignation",
         ),
         SecurityEvent(
             "Power Outage",
